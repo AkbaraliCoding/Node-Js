@@ -5,7 +5,7 @@ const server = http.createServer((req, res)=>{
     console.log(req.url);
 
 
-    res.write('<h1>HEllo 8A</h1>')
+    res.write('<h1>HEllo</h1>')
     res.end()
 })
 
